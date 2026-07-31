@@ -2,7 +2,7 @@
 NAME:NIRUDHI A
 REG NO:212224223003
 ```
-# Led-control-using-Arduino
+## EX:1 Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
