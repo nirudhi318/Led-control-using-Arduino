@@ -1,3 +1,7 @@
+```
+NAME:NIRUDHI A
+REG NO:212224223003
+```
 # Led-control-using-Arduino
 
 ## AIM
@@ -58,9 +62,30 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+<img width="1248" height="883" alt="Screenshot 2026-07-31 144147" src="https://github.com/user-attachments/assets/b9b36250-a2e2-4ae6-83fe-a5d39a2d435a" />
 
 ## PROGRAM
+```
+void setup() 
+{
+  pinMode(7,OUTPUT);  
 
+}
+
+void loop() 
+{
+  digitalWrite(7,HIGH);
+  delay(1500);
+  digitalWrite(7,LOW);
+  delay(1500);
+}
+```
 ## OUTPUT
+LED NO
+<img width="1919" height="1152" alt="Screenshot 2026-07-31 144257" src="https://github.com/user-attachments/assets/84459ef4-d6ba-4651-93ad-238a620c5b45" />
+
+LED OFF
+<img width="1919" height="1199" alt="Screenshot 2026-07-31 144323" src="https://github.com/user-attachments/assets/71c9ceb5-0112-430c-a3d6-08005618d91a" />
 
 ## RESULT
+Thus design and implement a system for LED control using an Arduino microcontroller and a push button.
