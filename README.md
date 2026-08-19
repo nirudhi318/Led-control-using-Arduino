@@ -66,10 +66,13 @@ Weighing Machines </br>
 
 ## PROGRAM
 ```
+int led = 7;
+int sw1 = 2;
+
 void setup() 
 {
   pinMode(7,OUTPUT);  
-
+  pinMode(2,INPUT);
 }
 
 void loop() 
@@ -79,6 +82,7 @@ void loop()
   digitalWrite(7,LOW);
   delay(1500);
 }
+
 ```
 ## OUTPUT
 LED NO
